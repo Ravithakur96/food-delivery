@@ -1,0 +1,36 @@
+#heading{
+    color: red;
+    text-decoration:underline;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+.heading2{
+    color: green;
+    text-decoration: underline dotted ;
+    /* background-color: yellow; */
+}
+
+h2{
+margin-right:10px;
+border: 1px solid black;
+padding: 0%;
+margin: 0%;
+
+}
+body{
+    background-color: white;
+}
+
+table::before{
+    background: url(home4.jpg);
+mix-blend-mode: screen;
+    justify-content: center;
+    align-items: center;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
